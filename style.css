@@ -1,0 +1,33 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 75vh;
+    width: 75vh;
+    border: solid black 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pad-element{
+    height: calc(100% * ((75/16)/75));
+    width: calc(100% * ((75/16)/75));
+}
+
+.change-color{
+    background-color: black;
+}
